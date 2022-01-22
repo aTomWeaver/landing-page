@@ -1,0 +1,92 @@
+:root {
+    --dark-background: #1f2937;
+    --light-background: #e5e7eb;
+}
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+header {
+    background-color: var(--dark-background);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    height: 50px;
+    width: 850px;
+    justify-content: space-between;
+}
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.header-links li {
+    list-style-type: none;
+    margin-left: 2em;
+}
+.hero {
+    height: 400px;
+    align-items: center;
+    background-color: var(--dark-background);
+    color: white;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.initial-info {
+    height: 180px;
+    flex-flow: column;
+    max-width: 425px;
+}
+.sign-up {
+    width: 100px;
+}
+.hero img {
+    height: 180px;
+    width: 425px;
+    border: 1px dotted gray;
+}
+.random-info {
+    height: 400px;
+    justify-content: center;
+}
+.quote {
+    height: 400px;
+    flex-direction: column;
+    background-color: var(--light-background);
+    color: black;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+.quote p {
+    width: 750px;
+}
+#quoth {
+    position: relative;
+    left: 225px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+.call-to-action {
+    height: 200px;
+}
+footer {
+    height: 50px;
+    justify-content: center;
+}
