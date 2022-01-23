@@ -17,6 +17,10 @@ header {
     display: flex;
     justify-content: center;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .container {
     display: flex;
     align-items: center;
@@ -24,13 +28,14 @@ header {
 }
 .header {
     height: 50px;
-    width: 850px;
+    width: 1050px;
     justify-content: space-between;
 }
 #logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    user-select: none;
 }
 .header-links li {
     list-style-type: none;
@@ -49,20 +54,24 @@ header {
 .initial-info {
     height: 180px;
     flex-flow: column;
-    max-width: 425px;
+    max-width: 525px;
 }
 .sign-up {
     width: 100px;
 }
 .hero img {
     height: 180px;
-    width: 425px;
+    width: 525px;
     border: 1px dotted gray;
 }
 .random-info {
     height: 400px;
     justify-content: center;
 }
+.random-info > h2 {
+    font-size: 36px;
+}
+
 .quote {
     height: 400px;
     flex-direction: column;
@@ -74,7 +83,7 @@ header {
     font-size: 36px;
 }
 .quote p {
-    width: 750px;
+    width: 785px;
 }
 #quoth {
     position: relative;
